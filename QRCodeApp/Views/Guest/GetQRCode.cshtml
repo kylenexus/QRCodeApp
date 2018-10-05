@@ -1,0 +1,11 @@
+﻿@model QRCodeApp.Models.Guest
+@{
+    ViewBag.Title = "GetQRCode";
+}
+
+<h2>QR Code</h2>
+
+<img src="@ViewBag.ImgUrl" name="@Model.EmployeeId" height="300" width="300" />
+<br />
+Json Data : @ViewBag.JsonGuest
+
